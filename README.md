@@ -36,7 +36,8 @@ To make this procedure more efficient, we can say that:
 
 *****************************************************************************
 PC SPECs: https://valid.x86.fr/8gkv0a
-CPU util: 1% & 24% (1 core)
+CPU util: 1% a 14% (1 nueclo [automático])
+Intervalo: 1-1.000.000   | Hallados: 78.498     Números Primos | Tiempo: 93 ms
 Intervalo: 1-5.000.000   | Hallados: 348.513    Números Primos | Tiempo: 907 ms
-Intervalo: 1-10.000.000  | Hallados: 664.579    Números Primos | Tiempo: 2.566 ms (2.5 seg)
+Intervalo: 1-10.000.000  | Hallados: 664.579    Números Primos | Tiempo: 2.566 ms (2.56 seg)
 Intervalo: 1-100.000.000 | Hallados: 76.125.785 Números Primos | Tiempo: 76.125 ms (76.12 seg)
