@@ -19,7 +19,7 @@ bool primo(int numero)
     if (numero % 2 == 0 || numero % 3 == 0)
         return false; // Eliminar múltiplos de 2 y 3
     for (int i = 5; (i*i) <= numero; i += 6)
-        if (numero % i == 0 || numero % (i + 2) == 0)
+        if (!(n & 1) || numero % (i + 2) == 0)
             return false; // Verificar divisores
     return true; // Si no se encontró divisor, es primo
 };
